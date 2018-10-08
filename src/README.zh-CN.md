@@ -3,18 +3,8 @@
 [![build status](https://travis-ci.org/trekhleb/javascript-algorithms.svg?branch=master)](https://travis-ci.org/trekhleb/javascript-algorithms)
 [![codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/trekhleb/javascript-algorithms)
 
-本仓库包含了多种基于 JavaScript 的算法与数据结构。
+本仓库包含了多种基于 Java 的算法与数据结构。
 
-每种算法和数据结构都有自己的 README 并提供相关说明以及进一步阅读和 YouTube 视频。
-
-_Read this in other languages:_
-[_English_](https://github.com/trekhleb/javascript-algorithms/),
-[_繁體中文_](README.zh-TW.md),
-[_한국어_](README.ko-KR.md),
-[_Polski_](README.pl-PL.md),
-[_Français_](README.fr-FR.md),
-[_Español_](README.es-ES.md),
-[_Português_](README.pt-BR.md)
 
 ## 数据结构
 
