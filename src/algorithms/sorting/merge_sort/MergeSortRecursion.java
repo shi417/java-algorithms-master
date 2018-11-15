@@ -5,7 +5,12 @@ import java.util.Arrays;
 /**
  * @Author: shaohan
  * @Date: 2018/10/19 09:57
- * @Description:
+ * @Description: 递归版归并排序
+ *      总结：1.归并排序的思想是分而治之。分治算法一般都是通过递归实现的。（递归其实也是先递后归）。分治是一种解决
+ *              问题的处理思想，递归是一种手段。
+ *            2.是稳定排序
+ *            3.各种时间复杂度都是O(n log n)
+ *            4.不是原地排序  是其重要弱点（不如快排）
  */
 public class MergeSortRecursion {
 
