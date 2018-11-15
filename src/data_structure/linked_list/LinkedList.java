@@ -11,7 +11,31 @@ public class LinkedList<E> {
 
     private Node<E> tail;
 
+    private int size;
+
     public LinkedList() {
+    }
+
+    public int size() {
+        return size;
+    }
+
+    public int indexOf(Object o) {
+        int index = 0;
+        if (o == null) {
+            for (Node<E> x = head; x != null; x = x.next) {
+                if (x.value == null)
+                    return index;
+                index++;
+            }
+        } else {
+            for (Node<E> x = head; x != null; x = x.next) {
+                if (o.equals(x.value))
+                    return index;
+                index++;
+            }
+        }
+        return -1;
     }
 
     /**
@@ -25,6 +49,7 @@ public class LinkedList<E> {
         if (this.tail == null) {
             this.tail = node;
         }
+        size++;
     }
 
     /**
@@ -41,6 +66,7 @@ public class LinkedList<E> {
             this.tail.next = node;
             this.tail = node;
         }
+        size++;
     }
 
     /**
@@ -88,6 +114,7 @@ public class LinkedList<E> {
             preNode.next = node.next;
             this.tail = preNode;
         }
+        size--;
     }
 
     /**
