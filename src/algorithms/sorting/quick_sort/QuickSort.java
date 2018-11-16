@@ -8,6 +8,7 @@ package algorithms.sorting.quick_sort;
  * 总：1.和归并排序一样，基于分治思想
  * 2.不稳定排序
  * 3.是原地排序
+ * 4.test
  */
 public class QuickSort {
     public static void quickSort(int[] a, int start, int end) {
