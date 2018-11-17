@@ -1,7 +1,4 @@
-# JavaScript 算法与数据结构
-
-[![build status](https://travis-ci.org/trekhleb/javascript-algorithms.svg?branch=master)](https://travis-ci.org/trekhleb/javascript-algorithms)
-[![codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/trekhleb/javascript-algorithms)
+# Java 算法与数据结构
 
 本仓库包含了多种基于 Java 的算法与数据结构。
 
@@ -162,8 +159,6 @@
   * `A` [骑士巡逻](src/algorithms/uncategorized/knight-tour)
   * `A` [组合求和](src/algorithms/sets/combination-sum) - 从规定的总和中找出所有的组合
 * **Branch & Bound**
-
-[▶ YouTube](https://www.youtube.com/playlist?list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
 
 ### 大O符号
 
