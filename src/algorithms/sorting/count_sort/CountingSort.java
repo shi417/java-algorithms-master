@@ -12,6 +12,7 @@ import java.util.Arrays;
  *           桶内快排的时间。
  *           3.适用场景：数据范围不大（不是数据量）的场景。如果给非负整数之外的数据排序的话，
  *           需要先对数据进行处理。
+ *           4.必然是稳定排序
  */
 public class CountingSort {
     /**

@@ -13,7 +13,7 @@ public class HashTable<K,V> {
     /**
      * 初始大小
      */
-    private static final int DEFAULT_INITIAL_CAPACITY = 1 << 4;
+    private static final int DEFAULT_INITIAL_CAPACITY = 16;
     /**
      * 内部数组
      */
